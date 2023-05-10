@@ -1,0 +1,39 @@
+.nav{
+    display: flex;
+    /* margin: 0 60px 0 60px; */
+    padding: 30px 8%;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.logo{
+    float: left;
+    /* margin-left: 60px; */
+}
+.logo > h1 {
+    color: #5E7863;
+}
+.cart{
+    float: right;
+    /* margin-right: 60px; */
+}
+.icon{
+    color: #5E7863;
+    /* width: 100px; */
+}
+.cart  > h3{
+    font-size: 12px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top: 40px;
+    left: 92%;
+    padding: 1px 5px;
+
+}
+
